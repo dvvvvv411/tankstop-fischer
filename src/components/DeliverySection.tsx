@@ -96,7 +96,7 @@ const DeliverySection = () => {
                   </p>
                   <p className="text-gray-600 text-sm">
                     Kein Problem! Wir beliefern auch weitere Orte in Deutschland. 
-                    Kontaktieren Sie uns per E-Mail an <span className="font-medium">info@greenoil-energie.de</span> 
+                    Kontaktieren Sie uns per E-Mail an <span className="font-medium">info@tankstop-fischer.de</span>
                     und wir prüfen die Liefermöglichkeit.
                   </p>
                 </div>

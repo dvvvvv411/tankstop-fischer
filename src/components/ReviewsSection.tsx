@@ -8,7 +8,7 @@ const ReviewsSection = () => {
       name: 'Maria Huber',
       location: 'Berlin',
       rating: 5,
-      text: 'Bereits zum dritten Mal bestellt und immer top zufrieden! Pünktliche Lieferung, faire Preise und sehr freundlicher Service. Kann GreenOil nur weiterempfehlen!',
+      text: 'Bereits zum dritten Mal bestellt und immer top zufrieden! Pünktliche Lieferung, faire Preise und sehr freundlicher Service. Kann Fischer Energie nur weiterempfehlen!',
       date: '2024-01-15'
     },
     {
@@ -43,7 +43,7 @@ const ReviewsSection = () => {
       name: 'Klaus Fischer',
       location: 'Leipzig',
       rating: 5,
-      text: 'Beste Heizölpreise in der Region! Habe verschiedene Anbieter verglichen und GreenOil war nicht nur günstiger, sondern auch noch serviceorientierter.',
+      text: 'Beste Heizölpreise in der Region! Habe verschiedene Anbieter verglichen und Fischer Energie war nicht nur günstiger, sondern auch noch serviceorientierter.',
       date: '2023-12-28'
     }
   ];

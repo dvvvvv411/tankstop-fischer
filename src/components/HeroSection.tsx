@@ -25,7 +25,7 @@ const HeroSection = () => {
           <div className="space-y-6 lg:space-y-8 animate-fade-in">
             <div className="space-y-4">
               <div className="inline-flex items-center px-3 py-2 lg:px-4 bg-accent-orange-100 text-accent-orange-700 rounded-full text-sm font-medium">
-                🔥 Heizöl-Experte seit über 20 Jahren
+                🔥 Heizöl-Experte seit über 35 Jahren
               </div>
               
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 leading-tight text-balance">
@@ -80,14 +80,14 @@ const HeroSection = () => {
 
             {/* Trust Indicators */}
             <div className="pt-6 lg:pt-8 border-t border-gray-200">
-              <p className="text-sm text-gray-500 mb-4">Vertrauen Sie auf über 20 Jahre Erfahrung</p>
+              <p className="text-sm text-gray-500 mb-4">Vertrauen Sie auf über 35 Jahre Erfahrung</p>
               <div className="grid grid-cols-3 gap-4 lg:flex lg:items-center lg:space-x-8">
                 <div className="text-center">
                   <div className="text-xl lg:text-2xl font-bold text-accent-orange-600">100.000+</div>
                   <div className="text-xs lg:text-sm text-gray-500">Zufriedene Kunden</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-xl lg:text-2xl font-bold text-primary-600">20+</div>
+                  <div className="text-xl lg:text-2xl font-bold text-primary-600">35+</div>
                   <div className="text-xs lg:text-sm text-gray-500">Jahre Erfahrung</div>
                 </div>
                 <div className="text-center">

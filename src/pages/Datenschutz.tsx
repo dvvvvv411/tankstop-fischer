@@ -8,8 +8,8 @@ const Datenschutz = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Datenschutzerklärung | GreenOil</title>
-        <meta name="description" content="Datenschutzerklärung von GreenOil. Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO." />
+        <title>Datenschutzerklärung | Fischer Energie</title>
+        <meta name="description" content="Datenschutzerklärung von Fischer Energie. Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO." />
       </Helmet>
       <Header />
 
@@ -31,12 +31,12 @@ const Datenschutz = () => {
             </CardHeader>
             <CardContent>
               <div className="space-y-2">
-                <p className="font-semibold">Green Oil Trade and Service GmbH</p>
-                <p>Kühgassfelderweg 13</p>
-                <p>90482 Nürnberg</p>
+                <p className="font-semibold">Fischer Energie GmbH</p>
+                <p>Gottlieb-Daimler-Str. 7</p>
+                <p>35398 Gießen</p>
                 <p>Deutschland</p>
                 <p className="mt-4">
-                  <span className="font-semibold">E-Mail:</span> info@greenoil-energie.de
+                  <span className="font-semibold">E-Mail:</span> info@tankstop-fischer.de
                 </p>
               </div>
             </CardContent>
@@ -150,7 +150,7 @@ const Datenschutz = () => {
                 Bei Fragen zum Datenschutz oder zur Ausübung Ihrer Rechte kontaktieren Sie uns unter:
               </p>
               <div className="mt-3 space-y-1 text-gray-700 text-sm">
-                <p><span className="font-semibold">E-Mail:</span> info@greenoil-energie.de</p>
+                <p><span className="font-semibold">E-Mail:</span> info@tankstop-fischer.de</p>
               </div>
             </CardContent>
           </Card>
