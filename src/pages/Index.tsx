@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>GreenOil - Heizöl deutschlandweit günstig bestellen | Ab 70 Cent/L</title>
+        <title>Fischer Energie - Heizöl deutschlandweit günstig bestellen | Ab 70 Cent/L</title>
         <meta name="description" content="✓ Heizöl deutschlandweit ab 70 Cent/Liter ✓ Kostenlose Lieferung ab 500L ✓ Premium-Qualität ✓ Schnelle Lieferung in 2-3 Werktagen ✓ Jetzt Preis berechnen!" />
       </Helmet>
       <Header />

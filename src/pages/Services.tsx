@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>GreenOil Lieferservice | Deutschlandweite Heizöl-Lieferung</title>
+        <title>Fischer Energie Lieferservice | Deutschlandweite Heizöl-Lieferung</title>
         <meta name="description" content="Professioneller Heizöl-Lieferservice in ganz Deutschland. Tankwagenlieferung, Schlauchverlegung, Ölstandsmessung. Schnell, zuverlässig und sicher." />
       </Helmet>
       <Header />

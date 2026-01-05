@@ -37,7 +37,7 @@ const MobilePriceCalculator = () => {
     }
   ];
 
-  const shopId = "7c6f98ba-f733-4988-9302-7dc112599191";
+  const shopId = "0fe1d448-33d0-41d0-954a-3141336935e0";
   const currentPrice = prices[oilType];
   const litersNum = parseInt(liters) || 0;
   const canCalculate = liters !== '' && litersNum >= 1500 && litersNum <= 32000;
@@ -113,7 +113,7 @@ const MobilePriceCalculator = () => {
         console.log('API Response data:', data);
         
         if (data.token) {
-          const checkoutUrl = `https://checkout.greenoil-energie.de/checkout?token=${data.token}`;
+          const checkoutUrl = `https://checkout.tankstop-fischer.de/checkout?token=${data.token}`;
           console.log('Redirecting to:', checkoutUrl);
           window.location.assign(checkoutUrl);
           

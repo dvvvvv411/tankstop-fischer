@@ -8,8 +8,8 @@ const Impressum = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Impressum | GreenOil - Green Oil Trade and Service GmbH</title>
-        <meta name="description" content="Impressum und Kontaktdaten der Green Oil Trade and Service GmbH, Nürnberg. Alle rechtlichen Informationen und Unternehmensangaben." />
+        <title>Impressum | Fischer Energie GmbH</title>
+        <meta name="description" content="Impressum und Kontaktdaten der Fischer Energie GmbH, Gießen. Alle rechtlichen Informationen und Unternehmensangaben." />
       </Helmet>
       <Header />
 
@@ -33,7 +33,7 @@ const Impressum = () => {
               <CardContent className="space-y-3">
                 <div>
                   <h3 className="font-semibold text-gray-900">Firma:</h3>
-                  <p className="text-gray-700">Green Oil Trade and Service GmbH</p>
+                  <p className="text-gray-700">Fischer Energie GmbH</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Rechtsform:</h3>
@@ -41,15 +41,15 @@ const Impressum = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Handelsregister:</h3>
-                  <p className="text-gray-700">HRB 32692</p>
+                  <p className="text-gray-700">HRB 11647</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Registergericht:</h3>
-                  <p className="text-gray-700">Amtsgericht Nürnberg</p>
+                  <p className="text-gray-700">Amtsgericht Gießen</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">USt-IdNr.:</h3>
-                  <p className="text-gray-700">DE427997637</p>
+                  <p className="text-gray-700">DE235555679</p>
                 </div>
               </CardContent>
             </Card>
@@ -67,9 +67,9 @@ const Impressum = () => {
                   <div>
                     <h3 className="font-semibold text-gray-900">Anschrift:</h3>
                     <p className="text-gray-700">
-                      Green Oil Trade and Service GmbH<br />
-                      Kühgassfelderweg 13<br />
-                      90482 Nürnberg<br />
+                      Fischer Energie GmbH<br />
+                      Gottlieb-Daimler-Str. 7<br />
+                      35398 Gießen<br />
                       Deutschland
                     </p>
                   </div>
@@ -79,7 +79,7 @@ const Impressum = () => {
                   <Mail className="text-primary-600" size={20} />
                   <div>
                     <h3 className="font-semibold text-gray-900">E-Mail:</h3>
-                    <p className="text-gray-700">info@greenoil-energie.de</p>
+                    <p className="text-gray-700">info@tankstop-fischer.de</p>
                   </div>
                 </div>
               </CardContent>
@@ -91,7 +91,7 @@ const Impressum = () => {
               <CardTitle>Geschäftsführung</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-700">Zhongfu Tang</p>
+              <p className="text-gray-700">Moritz Fischer</p>
             </CardContent>
           </Card>
 

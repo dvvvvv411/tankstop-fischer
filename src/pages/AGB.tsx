@@ -8,8 +8,8 @@ const AGB = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>AGB | Allgemeine Geschäftsbedingungen - GreenOil</title>
-        <meta name="description" content="Allgemeine Geschäftsbedingungen der Green Oil Trade and Service GmbH für Heizöl-Bestellungen und Lieferungen." />
+        <title>AGB | Allgemeine Geschäftsbedingungen - Fischer Energie</title>
+        <meta name="description" content="Allgemeine Geschäftsbedingungen der Fischer Energie GmbH für Heizöl-Bestellungen und Lieferungen." />
       </Helmet>
       <Header />
 
@@ -18,7 +18,7 @@ const AGB = () => {
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Allgemeine Geschäftsbedingungen</h1>
             <p className="text-xl text-gray-600">
-              Gültig ab 01.01.2025 für Green Oil Trade and Service GmbH
+              Gültig ab 01.01.2025 für Fischer Energie GmbH
             </p>
           </div>
 
@@ -31,7 +31,7 @@ const AGB = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700 text-sm leading-relaxed">
-                Diese Allgemeinen Geschäftsbedingungen gelten für alle Lieferungen und Leistungen der Green Oil Trade and Service GmbH, Kühgassfelderweg 13, 90482 Nürnberg (nachfolgend "Verkäufer" genannt) an Verbraucher und Unternehmer (nachfolgend "Kunden" genannt). Abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, der Verkäufer stimmt ihrer Geltung ausdrücklich schriftlich zu.
+                Diese Allgemeinen Geschäftsbedingungen gelten für alle Lieferungen und Leistungen der Fischer Energie GmbH, Gottlieb-Daimler-Str. 7, 35398 Gießen (nachfolgend "Verkäufer" genannt) an Verbraucher und Unternehmer (nachfolgend "Kunden" genannt). Abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, der Verkäufer stimmt ihrer Geltung ausdrücklich schriftlich zu.
               </p>
             </CardContent>
           </Card>
