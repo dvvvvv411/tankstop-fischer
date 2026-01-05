@@ -10,9 +10,9 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <img 
-              src="/lovable-uploads/greenoil.png" 
+              src="/assets/fischer-logo.png" 
               alt="Fischer Energie" 
-              className="h-20"
+              className="h-12"
             />
             <p className="text-gray-300 leading-relaxed">
               Ihr zuverlässiger Partner für Heizöl in Deutschland mit über 35 Jahren Erfahrung. 
