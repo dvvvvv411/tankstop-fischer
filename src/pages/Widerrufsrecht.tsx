@@ -48,14 +48,14 @@ const Widerrufsrecht = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-gray-700 text-sm leading-relaxed">
-                Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Fischer Energie GmbH, Gottlieb-Daimler-Str. 7, 35398 Gießen, E-Mail: info@tankstop-fischer.de) mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief, Telefax oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.
+                Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Fischer Energie GmbH, Gottlieb-Daimler-Str. 7, 35398 Gießen, E-Mail: info@tankstopfischer.de) mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief, Telefax oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.
               </p>
               
               <div className="bg-primary-50 p-4 rounded-lg">
                 <h3 className="font-semibold text-gray-900 mb-2">Kontakt für Widerruf:</h3>
                 <div className="space-y-1 text-gray-700 text-sm">
                   <p><span className="font-semibold">Adresse:</span> Fischer Energie GmbH, Gottlieb-Daimler-Str. 7, 35398 Gießen</p>
-                  <p><span className="font-semibold">E-Mail:</span> info@tankstop-fischer.de</p>
+                  <p><span className="font-semibold">E-Mail:</span> info@tankstopfischer.de</p>
                 </div>
               </div>
 
@@ -130,7 +130,7 @@ const Widerrufsrecht = () => {
                 </p>
                 
                 <div className="space-y-4 text-gray-700 text-sm">
-                  <p>An: Fischer Energie GmbH, Gottlieb-Daimler-Str. 7, 35398 Gießen, E-Mail: info@tankstop-fischer.de</p>
+                  <p>An: Fischer Energie GmbH, Gottlieb-Daimler-Str. 7, 35398 Gießen, E-Mail: info@tankstopfischer.de</p>
                   
                   <p>Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf der folgenden Waren (*):</p>
                   

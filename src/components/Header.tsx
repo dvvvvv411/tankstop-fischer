@@ -30,7 +30,7 @@ const Header = () => {
             <div className="flex items-center space-x-6">
                 <div className="flex items-center space-x-2">
                   <Bell size={14} className="text-accent-orange-500" />
-                  <span>info@tankstop-fischer.de</span>
+                  <span>info@tankstopfischer.de</span>
                 </div>
               </div>
               <div className="text-accent-orange-500 font-medium">
