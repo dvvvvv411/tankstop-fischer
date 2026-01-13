@@ -103,10 +103,15 @@ const Header = () => {
               >
                 {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
               </button>
-            </div>
           </div>
+        </div>
 
-          {/* Mobile Navigation Menu */}
+        {/* Handelsblatt Ad Banner - im Sticky Header */}
+        <div className="border-t border-gray-100 py-2">
+          <HandelsblattAdBanner />
+        </div>
+
+        {/* Mobile Navigation Menu */}
           <div className={cn(
             "overflow-hidden transition-all duration-300 ease-in-out",
             isMenuOpen ? "max-h-96 pb-4" : "max-h-0"
@@ -145,13 +150,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-
-      {/* Mobile/Tablet Handelsblatt Ad Banner - unter dem Header */}
-      <div className="lg:hidden bg-white border-b border-gray-100">
-        <div className="container mx-auto px-4 py-2">
-          <HandelsblattAdBanner />
-        </div>
-      </div>
     </>
   );
 };
