@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from "@/lib/utils";
 import { scrollToCalculator, scrollToCalculatorFromOtherPage } from '../utils/scrollToCalculator';
+import HandelsblattAdBanner from './HandelsblattAdBanner';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,13 +42,20 @@ const Header = () => {
 
           {/* Main Navigation */}
           <div className="flex justify-between items-center py-4">
-            <Link to="/" className="flex items-center">
-              <img 
-                src="/assets/fischer-logo.png" 
-                alt="Fischer Energie" 
-                className="h-12"
-              />
-            </Link>
+            <div className="flex items-center gap-6">
+              <Link to="/" className="flex items-center">
+                <img 
+                  src="/assets/fischer-logo.png" 
+                  alt="Fischer Energie" 
+                  className="h-12"
+                />
+              </Link>
+              
+              {/* Handelsblatt Ad Banner */}
+              <div className="hidden xl:block max-w-md">
+                <HandelsblattAdBanner />
+              </div>
+            </div>
 
             <nav className="flex items-center space-x-8">
               <Link to="/" className="text-gray-700 hover:text-accent-orange-500 transition-colors font-medium">
